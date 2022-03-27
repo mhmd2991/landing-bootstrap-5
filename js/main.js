@@ -1,7 +1,7 @@
 let navBar = document.querySelector('nav');
 let sectionOne = document.querySelector('.header');
 let sectionOneOptions = {
-    rootMargin: "-600px 0px 0px 0px"
+    rootMargin: "-200px 0px 0px 0px"
 };
 let sectionOneObserver = new IntersectionObserver(function (entries, sectionOneObserver) {
         entries.forEach(entry => {
