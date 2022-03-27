@@ -257,6 +257,7 @@ a {
 
     .collapse.show {
         transform: translateX(0);
+        overflow: scroll;
     }
 
     .navbar-nav>li {
