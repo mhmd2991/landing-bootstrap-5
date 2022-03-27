@@ -144,6 +144,18 @@ a {
     color: var(--textColor) !important;
 }
 
+.nav-scrolled .toggle-bar {
+    background-color: var(--textColor);
+}
+
+.nav-scrolled .toggle-bar::before {
+    box-shadow: 0 -10px 0 0 var(--textColor);
+}
+
+.nav-scrolled .toggle-bar::after {
+    box-shadow: 0 10px 0 0 var(--textColor);
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 14px;
     padding-right: 25px;
@@ -176,7 +188,7 @@ a {
 .toggle-bar {
     position: relative;
     top: 50%;
-    background-color: var(--textColor);
+    background-color: #ffffff
 }
 
 .toggle-bar,
@@ -196,11 +208,11 @@ a {
 }
 
 .toggle-bar::before {
-    box-shadow: 0 -10px 0 0 var(--textColor);
+    box-shadow: 0 -10px 0 0 #ffffff;
 }
 
 .toggle-bar::after {
-    box-shadow: 0 10px 0 0 var(--textColor);
+    box-shadow: 0 10px 0 0 #ffffff;
 }
 
 .change .toggle-bar {
@@ -506,7 +518,7 @@ a {
     }
 }
 
-.contact-us form .row > div {
+.contact-us form .row>div {
     margin-bottom: 30px;
 }
 
@@ -517,7 +529,7 @@ a {
     border-radius: 25px;
     outline: none;
     padding-left: 15px;
-    
+
 }
 
 .contact-us input:focus,
